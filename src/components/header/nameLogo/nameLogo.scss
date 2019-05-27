@@ -1,0 +1,36 @@
+.header__name{
+    position: relative;
+    top: 50vh;
+    left: 5%;
+    width: 40rem;
+    padding: 5px;
+    color: white;
+    z-index: 40;
+
+    &-h1{
+        font-size: 4rem;
+        margin: 0;
+        text-align: center;
+        filter: drop-shadow(0 5px 5px rgba(0, 0, 0, 0.527));
+
+        & i {
+            font-size: 2rem;
+            display: block;
+        }
+    }
+
+    &-h2{
+        margin:0 0 5rem;
+        text-align: center;
+        font-size: 2rem;
+        letter-spacing: .2rem;
+        text-transform: uppercase;
+    }
+
+    &-h3{
+        font-size: 25px;
+        letter-spacing: .2rem;
+        text-transform: uppercase;
+    }
+    
+}

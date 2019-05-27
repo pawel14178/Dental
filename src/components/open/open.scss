@@ -1,0 +1,151 @@
+.Open{
+    position: relative;
+    margin: 10rem 0 10rem;
+    width: 100%;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+
+    &__text{
+        position: absolute;
+        left: 50%;
+        transform: translateX(-50%);
+        top: -10rem;
+        z-index: 11;
+        padding: 0 0 5rem 2rem;
+        width: 50vw;
+        color: rgb(5, 1, 37);
+        text-align: center;
+        margin: 2rem 0 2rem ;
+        font-size: 2.5rem;
+
+        &::before, &::after{
+            content: '';
+            position: absolute;
+            height: 2px;
+            top: 20%;
+            background-color: #0f7cff;
+            width: 20%;
+        }
+
+        &::before{
+            left: -2rem;
+        }
+
+        &::after{
+            right: -4rem;
+        }
+        
+    }
+
+    .card{
+        position: relative;
+        width: 20rem;
+        height: 30rem;
+        background-image: linear-gradient(to right bottom, #0f7cff, #00f7ff);
+        margin: 0;
+        padding: 0;
+        box-shadow: 1px 4px 10px grey;
+        
+        &__button{
+            position: absolute;
+            top: 110%;
+            left: 50%;
+            transform: translateX(-50%);
+            transition: transform .2s;
+
+            border: 1px solid #ffffff;
+            background-color: transparent;
+            width: 10rem;
+            height: 3rem;
+            font-size: .8rem;
+            text-transform: uppercase;
+            color: white;
+            font-weight: bold;
+
+            &:hover{
+                box-shadow: 1px 3px 5px rgba(0, 0, 0, 0.171);
+                cursor: pointer;
+            }
+
+            &:active{
+                transform: translate(-50%, 2px);
+            }
+
+            &:focus{
+                outline: none;
+                color: #eee;
+            }
+        }
+
+        &__city{            
+            position: relative;
+            top: 10%;
+            left: 0;
+            width: 100%;
+            height: 20%;
+            text-align: center;
+
+            & h2{
+                font-size: 3rem;
+                margin: .2rem;
+                color: white;
+            }
+
+            & h3{
+                font-size: 1.6rem;
+                position: relative;
+
+                &::before{
+                    position: absolute;
+                    content: '';
+                    width: 90%;
+                    height: 2px;
+                    background-color: white;
+                    top: 190%;
+                    left:5%;
+                }
+            }
+
+        }
+
+        &__info{
+            position: relative;
+            top: 25%;
+            left: 0;
+            width: 100%;
+            display: flex;
+            
+            &-days{ 
+                width: 50%;
+                padding: 0 2rem;
+
+                & ul{
+                    list-style: none;
+                    padding: 0;
+
+                    & li{
+                        font-size: 1.2rem;
+                        line-height: 2rem;
+                        font-weight: bold;
+                    }
+                }
+            }
+
+            &-hours{
+                width: 60%;
+                padding: 0 1rem;
+                list-style: none;
+
+                    & li{
+                        font-size: 1rem;
+                        line-height: 2rem;
+                    }
+                
+            }
+        }
+
+    }
+}

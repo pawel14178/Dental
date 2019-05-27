@@ -1,0 +1,54 @@
+.header__social{
+    float: right;
+    width: 30px;
+    height: auto;
+    margin-right: 2rem;
+    position: relative;
+
+    &::before, &::after {
+        content: '';
+        position: absolute;
+        width: .5px;
+        height: 50%;
+        left: 100%;
+        background-color: white;
+    }
+
+    &::before{
+        top: -50%;
+    }
+
+    &-fb, &-tw, &-li{            
+        display: block;
+        border-radius: 50%;
+        position: relative;
+        transition: background-image 1s ease;
+        -webkit-transition: background-image 1s ease;
+
+
+        & img{
+            margin: 0.5rem 1rem;
+            width: auto;
+            height: 30px;
+            z-index: 10;
+            cursor: pointer;
+            transition: transform .2s ease;
+            -webkit-transition: transform .2s ease;
+
+            &:hover{
+                transform: scale(1.06);
+            }
+
+            &:active{
+                transform: scale(.8) translateY(1.5px);
+            }
+        }
+
+        &:hover::before{
+            background-image: linear-gradient(to bottom, rgb(146, 228, 255), rgb(0, 89, 92) );
+            cursor: pointer;
+        }
+
+        
+    }
+}
