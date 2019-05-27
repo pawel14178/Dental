@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/Dental/static/css/main.72979903.chunk.css",
+    "main.js": "/Dental/static/js/main.5a931dfd.chunk.js",
+    "main.js.map": "/Dental/static/js/main.5a931dfd.chunk.js.map",
+    "runtime~main.js": "/Dental/static/js/runtime~main.ade5297c.js",
+    "runtime~main.js.map": "/Dental/static/js/runtime~main.ade5297c.js.map",
+    "static/js/2.94e58009.chunk.js": "/Dental/static/js/2.94e58009.chunk.js",
+    "static/js/2.94e58009.chunk.js.map": "/Dental/static/js/2.94e58009.chunk.js.map",
+    "index.html": "/Dental/index.html",
+    "precache-manifest.67b9608f7b5acb928124f52971ecf506.js": "/Dental/precache-manifest.67b9608f7b5acb928124f52971ecf506.js",
+    "service-worker.js": "/Dental/service-worker.js",
+    "static/css/main.72979903.chunk.css.map": "/Dental/static/css/main.72979903.chunk.css.map",
+    "static/media/background.png": "/Dental/static/media/background.d1fa57df.png",
+    "static/media/footer.scss": "/Dental/static/media/footer.02d03261.png",
+    "static/media/header.scss": "/Dental/static/media/header1.fcf661f3.png",
+    "static/media/logo.jpg": "/Dental/static/media/logo.95cd084c.jpg",
+    "static/media/portrait.jpg": "/Dental/static/media/portrait.41c2c947.jpg"
+  }
+}
