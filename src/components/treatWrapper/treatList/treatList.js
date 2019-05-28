@@ -1,8 +1,18 @@
-import React from 'react';
+import React, {Component} from 'react';
 
-const TreatList = (TreatItem) => 
-    (
-        <button className="treatList">{TreatItem.name}</button>
-    )
+class TreatItem extends Component{
 
-export default TreatList;
+
+
+    render() {
+        return (
+
+            <button onClick={this.props.Show} className="treat__wrapper-list-item">{this.props.TreatItem.name}</button>
+
+        )
+    }
+    
+}
+
+export default TreatItem;
+

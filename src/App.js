@@ -23,7 +23,7 @@ const App = () => {
                 <div className="nav__menu">
                     <ul>
                         <li><NavLink exact to="/">Strona główna</NavLink></li>
-                        <li><NavLink to="/treatment">Zabieg</NavLink></li>
+                        <li><NavLink to="/treatment">Zabiegi</NavLink></li>
                         <li><NavLink to="/calendar">Kalendarz</NavLink></li>
                         <li><NavLink to="/contact">Kontakt</NavLink></li>
                     </ul>

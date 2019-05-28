@@ -7,6 +7,8 @@ const Form = () => {
             <form>
                 <input type="text" placeholder="Imię" required/>
                 <input type="text" placeholder="Nazwisko" required/>
+                <input type="date" placeholder="Dzień" required/>
+                <input type="time" placeholder="Godzina" required/>
                 <input type="number" placeholder="Telefon" required/>
                 <input type="email" placeholder="E-mail" required/>
                 <textarea placeholder="Wiadmość (opcjonalnie)" class="textarea"></textarea>

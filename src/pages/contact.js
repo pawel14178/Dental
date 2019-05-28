@@ -1,15 +1,13 @@
 import React from 'react';
-import Header from "../components/header/header";
-
+import Header from "../components/header/headerPages";
 import Footer from "../components/footer/footer";
 
-const Contact = () => {
+const Treatment = () => {
     return(
         <div>
-            <Header />
-            <h1>Kontakt</h1>
+            <Header name={"contact"} title={"Kontakt"}/>
             <Footer />
         </div>
     )
 }
-export default Contact;
+export default Treatment;

@@ -1,0 +1,16 @@
+.header__title{
+    position: relative;
+    top: 50vh;
+    left: 5%;
+    width: 40rem;
+    padding: 5px;
+    color: white;
+    z-index: 40;
+
+    &-h1{
+        font-size: 4rem;
+        margin: 5rem;
+        text-align: center;
+        filter: drop-shadow(0 5px 5px rgba(0, 0, 0, 0.527));
+    }
+}
